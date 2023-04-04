@@ -40,7 +40,7 @@ export default class BlogList extends Component {
     return (
       <>
         {isLoading ? (
-          <div>
+          <div data-testid="loader">
             <Loader type="TailSpin" height={50} width={50} color="#00BFFF" />
           </div>
         ) : (
